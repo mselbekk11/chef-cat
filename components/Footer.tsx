@@ -16,23 +16,22 @@ export function Footer() {
         height='50'
         className='pb-6'
       /> */}
-      <h3 className='text-[#ED018C] text-[2rem] md:text-7xl lg:text-[8rem]'>
+      <h3 className='text-[#ED018C] text-[2.6rem] md:text-7xl lg:text-[8rem] mb-4'>
         Autism Powers
       </h3>
-      <p
-        className={`${space.className} text-white pb-2 text-xs lg:text-base`}
-      >
+      <p className={`${space.className} text-white pb-2 text-xs lg:text-base`}>
         Copyright © 2024 Autism Powers. All rights reserved.
       </p>
-      {/* <div className='text-gray-500 text-xs lg:text-base'>
-        <Link href='/terms-and-conditions' className='hover:underline'>
-          Terms & Conditions
-        </Link>{' '}
-        |{' '}
-        <Link href='/privacy-policy' className='hover:underline'>
-          Privacy Policy
-        </Link>
-      </div> */}
+      <p className={`${space.className} text-white pb-2 text-xs lg:text-base`}>
+        Site by{' '}
+        <a
+          href='https://www.selbekk.studio'
+          className='underline'
+          target='_blank'
+        >
+          Selbekk Studio
+        </a>
+      </p>
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function Fb() {
       </div>
       <div className='flex flex-col items-center justify-center bg-[#1A66B1] lg:border-l-2 border-black px-4 py-20 relative'>
         <Image
-          src='/fb.png'
+          src='/FB.png'
           alt='austin'
           width='750'
           height='300'

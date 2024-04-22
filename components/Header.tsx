@@ -49,7 +49,7 @@ export function Header() {
             <div className='flex-grow p-4'>
               <div className='flex '>
                 <p className='text-lg flex ml-2'>
-                  CA: Daj7rboZr4sfuvTNbXgDfpfQFwK8k1fgzCFGBU6uN66e
+                  $MOJO
                 </p>
               </div>
             </div>

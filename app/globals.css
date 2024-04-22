@@ -4,7 +4,79 @@
 
 body {
   background-color: #000;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-image: url("https://res.cloudinary.com/dtjasyr7k/image/upload/v1713403055/stars_sllw0m.png");
+  /* background-image: url("https://res.cloudinary.com/dtjasyr7k/image/upload/v1713403055/stars_sllw0m.png"); */
+}
+
+.uk:hover {
+  background-image: url("/uk.png");
+  background-position: center;
+}
+
+.bg {
+  background-image: url("/bg-opacity3.png");
+  background-repeat: repeat;
+}
+
+h1 {
+  /* Prefix required. Even Firefox only supports the -webkit- prefix */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+h3 {
+  /* Prefix required. Even Firefox only supports the -webkit- prefix */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+
+
+h2 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  /* font-size: 6rem; */
+  line-height: 6rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* .scroll {
+  white-space: nowrap;
+} */
+
+.scroll div {
+  display: flex;
+  gap: 2em;
+}
+
+.RightToLeft {
+  animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%)
+  }
+}
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }    
 }

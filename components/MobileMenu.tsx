@@ -55,9 +55,9 @@ export default function MobileMenu() {
       >
         <span className='sr-only'>Menu</span>
         {mobileNavOpen ? (
-          <X className='w-8 h-8 fill-current text-white' />
+          <X className='w-8 h-8 fill-current text-black' />
         ) : (
-          <AlignJustify className='w-8 h-8 fill-current text-white' />
+          <AlignJustify className='w-8 h-8 fill-current text-black' />
         )}
       </button>
 

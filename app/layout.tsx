@@ -8,12 +8,16 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import dynamic from 'next/dynamic';
 import Script from 'next/script';
+import localFont from 'next/font/local';
 
 const inter = Inter({ subsets: ['latin'] });
 
 const space = Space_Grotesk({ subsets: ['latin'] });
 
-const imageURL = `https://http://www.returdbranzen.com/og.png`;
+// const myFont = localFont({ src: './ActionIsShaded.ttf' });
+const myFont = localFont({ src: './actionis.ttf' });
+
+const imageURL = `https://www.autismpowers.com/og.png`;
 
 export const metadata: Metadata = {
   title: 'Returd Branzen',
@@ -30,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className='!scroll-smooth'>
-      <body className={space.className}>
+      <body className={myFont.className}>
         <Header />
         {children}
         <Footer />

@@ -20,8 +20,8 @@ const myFont = localFont({ src: './actionis.ttf' });
 const imageURL = `https://www.autismpowers.com/og.png`;
 
 export const metadata: Metadata = {
-  title: 'Returd Branzen',
-  description: 'I am Returd Branzen. I am here to find moon',
+  title: 'Autism Powers',
+  description: 'Do memes make you horny baby?',
   openGraph: {
     images: imageURL,
   },

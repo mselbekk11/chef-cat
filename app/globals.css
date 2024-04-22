@@ -4,6 +4,7 @@
 
 body {
   background-color: #000;
+  cursor: url('/mojo-2.png'), auto;
   /* background-image: url("https://res.cloudinary.com/dtjasyr7k/image/upload/v1713403055/stars_sllw0m.png"); */
 }
 

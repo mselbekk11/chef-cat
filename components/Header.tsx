@@ -42,7 +42,7 @@ export function Header() {
         </div>
       </div>
       <header
-        className={`${space.className} mx-auto w-full bg-[#fff] sticky top-0 z-50 border-y-[#000] border-y-4`}
+        className={`${space.className} mx-auto w-full bg-[#fff] sticky top-0 z-50 border-y-[#000] border-t-4 lg:border-y-4`}
       >
         <nav className='mx-auto w-full flex justify-between items-center'>
           <Marquee autoFill pauseOnHover>
@@ -71,7 +71,7 @@ export function Header() {
         </nav>
       </header>
       <div
-        className={`${space.className} lg:hidden flex bg-[#fff] w-full sticky top-0 z-50`}
+        className={`${space.className} lg:hidden flex bg-[#fff] w-full sticky top-0 z-50 border-t-4 border-black`}
       >
         {buttons.map((item) => (
           <div key={item.name} className='flex-grow'>

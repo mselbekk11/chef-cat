@@ -42,7 +42,7 @@ export default function Evul() {
         /> */}
       </div>
       <div className='flex flex-col items-center text-center bg-[#7939A9] py-20 lg:py-40 px-4 bg lg:border-l-2 border-black order-1 lg:order-2 border-b-4 lg:border-b-0'>
-        <h2 className='text-white text-[4rem] md:text-[4rem] lg:text-[5rem]'>
+        <h2 className='text-white text-[3rem] md:text-[4rem] lg:text-[5rem] leading-[4rem] lg:leading-[6rem]'>
           Charts with frikin laser beams attached to their frikin heads
         </h2>
         <ButtonMojo />

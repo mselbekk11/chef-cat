@@ -8,7 +8,7 @@ const space = Space_Grotesk({ subsets: ['latin'] });
 
 export function Footer() {
   return (
-    <div className='w-full bg-[#000] flex flex-col items-center py-20 px-6'>
+    <div className='w-full bg-[#000] flex flex-col items-center py-20 px-6 text-center'>
       {/* <Image
         src='/footer-logo.png'
         alt='logo'
@@ -16,7 +16,7 @@ export function Footer() {
         height='50'
         className='pb-6'
       /> */}
-      <h3 className='text-[#ED018C] text-6xl md:text-7xl lg:text-[8rem]'>
+      <h3 className='text-[#ED018C] text-[2rem] md:text-7xl lg:text-[8rem]'>
         Autism Powers
       </h3>
       <p

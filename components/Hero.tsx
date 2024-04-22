@@ -12,20 +12,20 @@ export default function Hero() {
   return (
     <div className='mx-auto w-full grid  grid-cols-1 lg:grid-cols-2 text-white border-b-4 border-black'>
       <div className='flex flex-col items-center text-center bg-[#00ADF2] py-20 lg:py-40 px-4 bg lg:border-r-2 border-black border-b-4 lg:border-b-0'>
-        <h2 className='text-white text-[4rem] md:text-[4rem] lg:text-[6rem]'>
+        <h2 className='text-white text-[3rem] md:text-[4rem] lg:text-[6rem] leading-[4rem] lg:leading-[6rem]'>
           Do Memes Make you Horny Baby
         </h2>
         <ButtonMojo />
       </div>
       <div className='flex flex-col items-center justify-center bg-[#FFF51C] lg:border-l-2 border-black px-4 py-20 relative'>
         <Image
-          src='/austin.png'
+          src='/austinall.png'
           alt='austin'
-          width='400'
+          width='500'
           height='300'
           className='z-30'
         />
-        <Image
+        {/* <Image
           src='/1.png'
           alt='austin'
           width='100'
@@ -52,7 +52,7 @@ export default function Hero() {
           width='130'
           height='50'
           className='floating absolute bottom-70 right-64 z-20'
-        />
+        /> */}
       </div>
     </div>
   );

@@ -51,7 +51,9 @@ export function Header() {
           <Marquee autoFill pauseOnHover>
             <div className='flex-grow p-4'>
               <div className='flex items-center'>
-                <p className='text-lg flex ml-2'>$MOJO</p>
+                <p className='text-lg flex ml-2'>
+                  CA: JCzn3bQ34QkRfapL6EeSkjpW7p9rY2r6EcuU13usbp3D
+                </p>
                 {/* <Image src='/1.png' alt='playing' height='30' width='30' className='ml-2'/>
                 <p className='text-lg flex ml-2'>$MOJO</p> */}
                 <Image

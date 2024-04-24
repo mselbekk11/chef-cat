@@ -3,6 +3,7 @@
 import Evul from '@/components/Evul';
 import Fb from '@/components/Fb';
 import Hero from '@/components/Hero';
+import AutoPlayAudio from '@/components/AutoPlayAudio';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Evul />
         <Fb />
       </main>
+        <AutoPlayAudio />
     </>
   );
 }

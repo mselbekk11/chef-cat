@@ -48,9 +48,7 @@ export function Header() {
           <Marquee autoFill pauseOnHover>
             <div className='flex-grow p-4'>
               <div className='flex '>
-                <p className='text-lg flex ml-2'>
-                  $MOJO
-                </p>
+                <p className='text-lg flex ml-2'>$MOJO</p>
               </div>
             </div>
           </Marquee>

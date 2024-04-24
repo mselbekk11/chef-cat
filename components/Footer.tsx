@@ -24,12 +24,8 @@ export function Footer() {
       </p>
       <p className={`${space.className} text-white pb-2 text-xs lg:text-base`}>
         Site by{' '}
-        <a
-          href='https://www.selbekk.studio'
-          className='underline'
-          target='_blank'
-        >
-          Selbekk Studio
+        <a href='https://t.me/Meezy22' className='underline' target='_blank'>
+          @MEEZY22
         </a>
       </p>
     </div>

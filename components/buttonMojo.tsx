@@ -7,16 +7,17 @@ import Image from 'next/image';
 export default function buttonMojo() {
   return (
     <>
-      <a
-        href='/https://pump.fun/JCzn3bQ34QkRfapL6EeSkjpW7p9rY2r6EcuU13usbp3D'
-        target='_blank'
+      <button
+        className={`${space.className} border-2 border-black px-6 py-6 text-lg bg-[#FF92D2] text-black font-semibold mt-10 flex justify-center items-center uk`}
       >
-        <button
-          className={`${space.className} border-2 border-black px-6 py-6 text-lg bg-[#FF92D2] text-black font-semibold mt-10 flex justify-center items-center uk`}
+        {' '}
+        <a
+          href='https://pump.fun/JCzn3bQ34QkRfapL6EeSkjpW7p9rY2r6EcuU13usbp3D'
+          target='_blank'
         >
           BUY $MOJO
-        </button>
-      </a>
+        </a>
+      </button>
     </>
   );
 }

@@ -29,7 +29,7 @@ const AutoPlayAudio: React.FC = () => {
       {isPlaying ? <PlayingMusic /> : <PausingMusic />}
       <button
         onClick={togglePlayPause}
-        className='bg-[#FFC638] border-4 border-black w-full py-6 mt-2 text-xl font-semibold'
+        className='bg-[#FFC638] border-4 border-black w-full py-4 lg:py-6 mt-2 text-xl font-semibold'
       >
         {isPlaying ? 'Pause' : 'Play'}
       </button>

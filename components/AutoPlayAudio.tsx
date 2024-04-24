@@ -33,7 +33,7 @@ const AutoPlayAudio: React.FC = () => {
       >
         {isPlaying ? 'Pause' : 'Play'}
       </button>
-      <audio ref={audioRef} src='/audio.mp3' preload='auto' hidden>
+      <audio ref={audioRef} src='/audio2.mp3' preload='auto' hidden>
         Your browser does not support the audio element.
       </audio>
     </div>

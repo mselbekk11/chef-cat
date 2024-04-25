@@ -16,7 +16,10 @@ export function Header() {
   const buttons = [
     { name: 'TWITTER/X', href: 'https://twitter.com/autismpowerssol' },
     { name: 'TELEGRAM', href: 'https://t.me/autismpowersportal' },
-    // { name: 'DEX', href: '/' },
+    {
+      name: 'DEX',
+      href: 'https://dexscreener.com/solana/3gcadhryukp3gxhngcb4jjwfdn9gwpkgfajpgwb7x97g',
+    },
     {
       name: 'BUY',
       href: 'https://pump.fun/JCzn3bQ34QkRfapL6EeSkjpW7p9rY2r6EcuU13usbp3D',

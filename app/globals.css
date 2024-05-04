@@ -4,52 +4,23 @@
 
 body {
   background-color: #000;
-  cursor: url('/mojo-2.png'), auto;
-  /* background-image: url("https://res.cloudinary.com/dtjasyr7k/image/upload/v1713403055/stars_sllw0m.png"); */
-}
-
-.uk:hover {
-  background-image: url('/UK.png');
-  background-position: center;
 }
 
 .bg {
-  background-image: url('/bg-opacity3.png');
+  background-image: url('/bird-bg.png');
   background-repeat: repeat;
+  /* opacity: 0.5; */
 }
 
-h1 {
-  /* Prefix required. Even Firefox only supports the -webkit- prefix */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;
-}
-
-h3 {
-  /* Prefix required. Even Firefox only supports the -webkit- prefix */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;
-}
-
-h2 {
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  /* font-size: 6rem; */
-  /* line-height: 6rem; */
+.black {
+  background-color: #000;
+  opacity: 0.5;
 }
 
 .container {
   display: flex;
   align-items: center;
   overflow: hidden;
-}
-
-/* .scroll {
-  white-space: nowrap;
-} */
-
-.scroll div {
-  display: flex;
-  gap: 2em;
 }
 
 .RightToLeft {
@@ -88,7 +59,14 @@ h2 {
 
 .fixed-container {
   position: fixed;
-  bottom: 1rem;
-  left: 1rem;
+  bottom: 0rem;
+  left: 0rem;
+  z-index: 1000; /* Make sure it sits on top of other content */
+}
+
+.fixed-container-two {
+  position: fixed;
+  bottom: 0rem;
+  right: 0rem;
   z-index: 1000; /* Make sure it sits on top of other content */
 }

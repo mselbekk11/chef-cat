@@ -1,19 +1,17 @@
 'use client';
 
-import Evul from '@/components/Evul';
-import Fb from '@/components/Fb';
 import Hero from '@/components/Hero';
-import AutoPlayAudio from '@/components/AutoPlayAudio';
+import SideTree from '@/components/SideTree';
+import SideTreeTwo from '@/components/SideTreeTwo';
 
 export default function Home() {
   return (
     <>
-      <main className=''>
+      <main className='bg min-h-screen p-6'>
         <Hero />
-        <Evul />
-        <Fb />
+        <SideTree />
+        <SideTreeTwo />
       </main>
-        <AutoPlayAudio />
     </>
   );
 }

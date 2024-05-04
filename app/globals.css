@@ -70,3 +70,10 @@ body {
   right: 0rem;
   z-index: 1000; /* Make sure it sits on top of other content */
 }
+
+.fixed-container-music {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 1000; /* Make sure it sits on top of other content */
+}

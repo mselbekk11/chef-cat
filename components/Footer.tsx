@@ -9,18 +9,11 @@ const space = Space_Grotesk({ subsets: ['latin'] });
 export function Footer() {
   return (
     <div className='w-full bg-[#000] flex flex-col items-center py-20 px-6 text-center'>
-      {/* <Image
-        src='/footer-logo.png'
-        alt='logo'
-        width='350'
-        height='50'
-        className='pb-6'
-      /> */}
-      <h3 className='text-[#ED018C] text-[2.6rem] md:text-7xl lg:text-[8rem] mb-4'>
-        Autism Powers
-      </h3>
+      <h1 className='text-[4rem] lg:text-[8rem] text-[#E3A622]'>
+        The Biggest Cat
+      </h1>
       <p className={`${space.className} text-white pb-2 text-xs lg:text-base`}>
-        Copyright © 2024 Autism Powers. All rights reserved.
+        Copyright © 2024 The Biggest Cat. All rights reserved.
       </p>
       <p className={`${space.className} text-white pb-2 text-xs lg:text-base`}>
         Site by{' '}

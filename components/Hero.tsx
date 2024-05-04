@@ -25,15 +25,15 @@ export default function Hero() {
           </a>
         </div>
         <div className=''>
-          <a href='https://t.me/thebiggestcat' target='_blank'>
-            <Image src='/meal-3.png' alt='A cat' width={200} height={50} />
-          </a>
-        </div>
-        <div className=''>
           <a
             href='https://www.dextools.io/app/en/solana/pair-explorer/ASu883q47EVN4amjChnvLxE9rZrJskURpNGQf4sqeowv?t=1714780988035'
             target='_blank'
           >
+            <Image src='/meal-3.png' alt='A cat' width={200} height={50} />
+          </a>
+        </div>
+        <div className=''>
+          <a href='https://t.me/thebiggestcat' target='_blank'>
             <Image src='/meal-4.png' alt='A cat' width={200} height={50} />
           </a>
         </div>

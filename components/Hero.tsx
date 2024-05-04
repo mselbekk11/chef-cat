@@ -18,13 +18,13 @@ export default function Hero() {
       <div className='w-full flex items-center justify-center flex-auto'>
         <Image src='/liger-big.png' alt='A cat' width={500} height={500} />
       </div>
-      <div className='flex items-center gap-2 justify-center flex-1'>
-        <div className=''>
+      <div className='flex items-center gap-2 justify-center flex-1 '>
+        <div className='hover-item'>
           <a href='https://x.com/ligersolana' target='_blank'>
             <Image src='/meat-2.png' alt='A cat' width={200} height={50} />
           </a>
         </div>
-        <div className=''>
+        <div className='hover-item'>
           <a
             href='https://www.dextools.io/app/en/solana/pair-explorer/ASu883q47EVN4amjChnvLxE9rZrJskURpNGQf4sqeowv?t=1714780988035'
             target='_blank'
@@ -32,7 +32,7 @@ export default function Hero() {
             <Image src='/meal-3.png' alt='A cat' width={200} height={50} />
           </a>
         </div>
-        <div className=''>
+        <div className='hover-item'>
           <a href='https://t.me/thebiggestcat' target='_blank'>
             <Image src='/meal-4.png' alt='A cat' width={200} height={50} />
           </a>

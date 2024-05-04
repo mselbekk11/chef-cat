@@ -77,3 +77,10 @@ body {
   left: 1rem;
   z-index: 1000; /* Make sure it sits on top of other content */
 }
+
+.hover-item {
+  transition: 0.3s;
+}
+.hover-item:hover {
+  transform: translate(0, -10px);
+}

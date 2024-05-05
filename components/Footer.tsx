@@ -17,8 +17,12 @@ export function Footer() {
       </p>
       <p className={`${space.className} text-white pb-2 text-xs lg:text-base`}>
         Site by{' '}
-        <a href='https://t.me/Meezy22' className='underline' target='_blank'>
-          @MEEZY22
+        <a
+          href='https://www.meme-coin.io/'
+          className='underline'
+          target='_blank'
+        >
+          meme-coin.io
         </a>
       </p>
     </div>

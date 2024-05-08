@@ -13,7 +13,7 @@ export default function Menu() {
       <div className='mx-auto flex flex-col'>
         <div className='w-full'>
           <Image
-            src='/top2.png'
+            src='/Top2.png'
             alt='A cat'
             width={1400}
             height={500}

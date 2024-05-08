@@ -26,7 +26,7 @@ const luckiest = Luckiest_Guy({
 const imageURL = `https://www.chef-cat.xyz/og.png`;
 
 export const metadata: Metadata = {
-  title: '$Chef Cat',
+  title: 'Chef Cat',
   description:
     '$chef | $chef | $chef | $chef | $chef | $chef | $chef | $chef | $chef',
   openGraph: {

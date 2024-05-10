@@ -13,7 +13,7 @@ export default function Meme() {
       <div className='mx-auto flex flex-col'>
         <div className='w-full'>
           <Image
-            src='/Top2.png'
+            src='/giffycanvasV.gif'
             alt='A cat'
             width={1400}
             height={500}
@@ -194,7 +194,7 @@ export default function Meme() {
 
         <div className='w-full'>
           <Image
-            src='/Bottom2.png'
+            src='/giffycanvas3.gif'
             alt='A cat'
             width={1400}
             height={500}

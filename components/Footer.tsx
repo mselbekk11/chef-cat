@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 import { Space_Grotesk } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 const space = Space_Grotesk({ subsets: ['latin'] });
+import Fire from './Fire';
 
 import { Merienda } from 'next/font/google';
 
@@ -24,7 +25,9 @@ export function Footer() {
         className='ml-14 mb-4'
       />
       <div>
-        <h2 className='flex items-center justify-center text-4xl text-white'>Chef Cat</h2>
+        <h2 className='flex items-center justify-center text-4xl text-white'>
+          Chef Cat
+        </h2>
         {/* <h3
           className={`${merienda.className} flex items-center justify-center text-3xl text-white font-black  stroke-black-800`}
         >
@@ -44,6 +47,7 @@ export function Footer() {
           meme-coin.io
         </a>
       </p>
+      {/* <Fire /> */}
     </div>
   );
 }
